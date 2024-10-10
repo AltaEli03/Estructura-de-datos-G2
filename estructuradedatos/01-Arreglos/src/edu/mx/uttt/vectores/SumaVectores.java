@@ -9,8 +9,6 @@ public class SumaVectores {
         this.vector2 = vector2;
     }
 
-
-
     public int[] calcularSuma() {
         int[] resultado = new int[vector1.length];
         for (int i = 0; i < vector1.length; i++) {
